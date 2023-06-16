@@ -1,0 +1,39 @@
+img {
+    height: 15vmin;
+    border-radius: 15%;
+}
+
+svg {
+    height: 5vmin;
+}
+
+footer {
+    display: flex;
+    background-color: #b8ccc4;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer svg {
+    fill: red;
+    margin-right: 10%;
+}
+
+svg a {
+    fill: red;
+}
+
+.lid {
+    background-color: #d84444;
+    color: white;
+    border: none;
+    border-radius: 1vmin;
+    height: 6vmin;
+    width: 15%;
+    font-size: 4vmin;
+    outline: none;
+}
+
+.lid a {
+    color: white;
+}
