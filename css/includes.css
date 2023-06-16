@@ -1,0 +1,24 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    padding: 3vmin;
+    display: flex;
+    height: 14%;
+    justify-content: space-between;
+}
+#logo-img{
+    width: 15vmin;
+    height: 15vmin;
+    border-radius: 1vmin;
+}
+
+.header div h1{
+    align-self: center;
+    font-size: 8vmin;
+    padding-left: 3vmin;
+}
+#patreon-logo{
+    width: 13vmin;
+}
