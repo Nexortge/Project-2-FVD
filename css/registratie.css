@@ -44,13 +44,16 @@ h1 {
 
 .registreer {
     background-color: #d84444;
-    color: white;
     border: none;
     border-radius: 1vmin;
     height: 6vmin;
     width: 15%;
     font-size: 4vmin;
     outline: none;
+}
+
+.registreer a {
+    color: white;
 }
 
 a {
@@ -76,6 +79,10 @@ a {
 .patreon-sub {
     height: 10vmin;
     width: 10vmin;
+}   
+
+p {
+    color: black;
 }
 
 svg {
@@ -94,6 +101,10 @@ footer svg {
     margin-right: 10%;
 }
 
+svg a {
+    fill: red;
+}
+
 .lid {
     background-color: #d84444;
     color: white;
@@ -103,4 +114,8 @@ footer svg {
     width: 15%;
     font-size: 4vmin;
     outline: none;
+}
+
+.lid a {
+    color: white;
 }
