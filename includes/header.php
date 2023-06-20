@@ -1,10 +1,29 @@
+<?php
+$current_page = basename($_SERVER['PHP_SELF']);
+
+$pages = array(
+    'index.php' => 'Home',
+    'donaties.php' => 'About',
+    'contact.php' => 'Contact',
+    'niews.php' => 'Nieuws brief',
+    'stand.php' => 'Stand punten'
+);
+
+function isCurrentPage($page)
+{
+    global $current_page;
+    return ($current_page === $page) ? 'active' : '';
+}
+?>
+
+
 <link rel="stylesheet" href="../css/includes.css">
 <link rel="stylesheet" href="/css/includes.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 <div class="header">
-    <div style="display: flex;">
+    <div class="logo-text">
         <img id="logo-img" src="../assets/FVD.png" alt="logo">
         <h1>Forum voor democratie</h1>
     </div>
@@ -16,4 +35,14 @@
         <p>Subscribe</p>
     </div>
 
+
+</div>
+<div id="menu-items">
+    <ul>
+        <li class="<?php echo isCurrentPage('index.php'); ?>"><a href="index.php">Home</a></li>
+        <li class="<?php echo isCurrentPage('donaties.php'); ?>"><a href="donaties.php">Donaties</a></li>
+        <li class="<?php echo isCurrentPage('contact.php'); ?>"><a href="contact.php">Contact</a></li>
+        <li class="<?php echo isCurrentPage('nieuws.php'); ?>"><a href="nieuws.php">Nieuwsbrief</a></li>
+        <li class="<?php echo isCurrentPage('stand.php'); ?>"><a href="stand.php">Standpunten</a></li>
+    </ul>
 </div>

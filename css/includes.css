@@ -5,12 +5,19 @@
 .header{
     padding: 3vmin;
     display: flex;
-    height: 14%;
     justify-content: space-between;
+    height: 25vmin;
+    
 }
+.logo-text{
+    height: auto;
+    display: flex;
+    height: 25vmin;
+}
+
 #logo-img{
-    width: 15vmin;
-    height: 15vmin;
+    width: auto;
+    height: auto;
     border-radius: 1vmin;
 }
 
@@ -20,5 +27,40 @@
     padding-left: 3vmin;
 }
 #patreon-logo{
-    width: 13vmin;
+    width: 15vmin;
+    height: 15vmin;
+    align-self: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    list-style-type: none;
+    padding-top: 3%;
+    
+}
+
+ul li a{
+    color: #889AB4;
+    transition: 0.3s;
+}
+
+ul li a:hover{
+    color: #4F5B66;
+}
+
+ul li.active a {
+    color: red;
+}  
+
+
+a{
+    text-decoration: none;
+}
+
+#donaties, #contact, #nieuws, #stand{
+    color: lightslategray;
 }

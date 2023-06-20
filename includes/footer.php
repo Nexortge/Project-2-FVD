@@ -3,7 +3,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-<footer>
+<div>
+    <footer>
     <img class="fvd-logo" src="../assets/FVD.png" alt="">
     <button class="lid"><a href="registratie.html">Wordt lid</a></button>
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><a href="https://www.facebook.com/forumvoordemocratie">
@@ -21,3 +22,4 @@
         </a>
     </svg>
 </footer>
+</div>
