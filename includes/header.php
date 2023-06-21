@@ -5,7 +5,7 @@ $pages = array(
     'index.php' => 'Home',
     'donaties.php' => 'About',
     'contact.php' => 'Contact',
-    'niews.php' => 'Nieuws brief',
+    'nieuws.php' => 'Nieuws brief',
     'stand.php' => 'Stand punten'
 );
 
