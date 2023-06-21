@@ -5,7 +5,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 <div id="footer-div">
     <footer>
-    <img class="fvd-logo" src="../assets/FVD.png" alt="">
+    <img id="fvd-logo" src="../assets/FVD.png" alt="">
     <button class="lid"><a href="registratie.html">Word lid</a></button>
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><a href="https://www.facebook.com/forumvoordemocratie">
             <path d="m0 0h24v24h-24z" opacity="0" transform="matrix(-1 0 0 -1 24 24)" />
