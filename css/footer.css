@@ -1,11 +1,11 @@
 
 
-fvd-logo {
+#footer-div fvd-logo {
     height: 15vmin;
     border-radius: 15%;
 }
 
-svg {
+#footer-div svg {
     height: 5vmin;
 }
 

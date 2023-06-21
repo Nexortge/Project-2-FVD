@@ -3,7 +3,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-<div>
+<div id="footer-div">
     <footer>
     <img class="fvd-logo" src="../assets/FVD.png" alt="">
     <button class="lid"><a href="registratie.html">Word lid</a></button>
