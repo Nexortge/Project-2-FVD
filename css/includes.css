@@ -1,38 +1,40 @@
-*{
+* {
     font-family: 'Inter', sans-serif;
 }
 
-.header{
+.header {
     padding: 3vmin;
     display: flex;
     justify-content: space-between;
     height: 25vmin;
-    
+
 }
-.logo-text{
+
+.logo-text {
     height: auto;
     display: flex;
     height: 25vmin;
 }
 
-#logo-img{
+#logo-img {
     width: auto;
     height: auto;
     border-radius: 1vmin;
 }
 
-.header div h1{
+.header div h1 {
     align-self: center;
     font-size: 8vmin;
     padding-left: 3vmin;
 }
-#patreon-logo{
+
+#patreon-logo {
     width: 15vmin;
     height: 15vmin;
     align-self: center;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -40,24 +42,26 @@ ul{
     margin: 0 auto;
     list-style-type: none;
     padding-top: 3%;
-    
+
 }
 
-ul li a{
+ul li a {
     color: #889AB4;
     transition: 0.3s;
 }
 
-ul li a:hover{
+ul li a:hover {
     color: #4F5B66;
 }
 
 ul li.active a {
     color: red;
-}  
+}
 
-
-a{
+a {
     text-decoration: none;
 }
 
+p {
+    color: black;
+}
