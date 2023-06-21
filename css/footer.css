@@ -1,6 +1,6 @@
 
 
-img {
+fvd-logo {
     height: 15vmin;
     border-radius: 15%;
 }
@@ -14,7 +14,7 @@ footer {
     background-color: #b8ccc4;
     align-items: center;
     justify-content: space-between;
-    padding: 5%;
+    padding: 1%;
 }
 
 footer svg {
