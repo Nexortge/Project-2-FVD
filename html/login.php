@@ -28,7 +28,7 @@
             </form>
         </div>
         <div id="buttons">
-            <button class="login"><a href="index.html">Login!</a></button>
+            <button class="login"><a href="index.php">Login!</a></button>
         </div>
 
         <div id="patreon">
@@ -43,7 +43,7 @@
 
         <footer>
             <img class="fvd-logo" src="../assets/FVD.png" alt="">
-            <button class="lid"><a href="registratie.html">Word lid</a></button>
+            <button class="lid"><a href="registratie.php">Word lid</a></button>
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><a
                     href="https://www.facebook.com/forumvoordemocratie">
                     <path d="m0 0h24v24h-24z" opacity="0" transform="matrix(-1 0 0 -1 24 24)" />
