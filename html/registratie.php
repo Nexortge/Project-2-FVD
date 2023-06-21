@@ -40,8 +40,8 @@
             </form>
         </div>
         <div id="buttons">
-            <button class="registreer"><a href="../html/index.html">Sluit je aan!</a></button>
-            <p>of <a href="login.html">login</a></p>
+            <button class="registreer"><a href="../html/index.php">Sluit je aan!</a></button>
+            <p>of <a href="login.php">login</a></p>
         </div>
 
         <div id="patreon">
