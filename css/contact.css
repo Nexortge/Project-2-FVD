@@ -7,29 +7,88 @@ body {
 }
 
 #fvd-head {
-    display: flex;
-    justify-content: center;
+    padding: 1vmin 20vmin;
+    font-size: 7vmin;
 }
 
 #fvd-head-text {
     display: flex;
     justify-content: center;
+    white-space: pre-line
 }
 
 .fvd-bureau {
-    display: flex;  
+    display: flex;
     gap: 5%;
     justify-content: center;
+    padding-bottom: 4vmin;
 }
-    
+
 .fvd-bureau a {
     display: flex;
     color: black;
     text-decoration: none;
-    padding-top: 2vmin;
+    padding-top: 4vmin;
     gap: 5%;
 }
 
 .fvd-bureau svg {
     height: 3vmin;
+}
+
+#fvd-gegevens {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: -1rem;
+    margin-top: -1rem;
+    padding: 4vmin;
+}
+
+.fvd-fvd {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-bottom-width: 1px;
+}
+
+.fvd-fvd a {
+    color: black;
+}
+
+.fvd-contact {
+    padding-bottom: 3rem;
+    padding-left: 22vmin;
+}
+
+.pers {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.pers-text {
+    margin-top: 0.875rem;
+}
+
+.pers-a {
+    margin-top: 2rem
+}
+
+.pers-fvd {
+    transition-duration: .3s;
+    color: #d84444;
+    text-decoration: inherit;
+}
+
+.pers-p {
+    margin-top: 2rem;
+}
+
+.pers-tel {
+    transition-duration: .3s;
+    color: #d84444;
+    text-decoration: inherit;
 }

@@ -13,7 +13,59 @@
     include '../includes/header.php';
     ?>
     <h1 id="fvd-head">Contact</h1>
-    <p id="fvd-head-text">Het FVD-partijbureau staat klaar voor al uw vragen over het lidmaatschap en evenementen. Heeft u een politieke vraag, neem dan contact op de Tweede Kamerfractie.</p>
+    <p id="fvd-head-text">Het FVD-partijbureau staat klaar voor al uw vragen over het lidmaatschap en evenementen.
+        Heeft u een politieke vraag, neem dan contact op de Tweede Kamerfractie.</p>
+    <div id="fvd-gegevens">
+        <div class="fvd-fvd">
+            <h2>Adres</h2>
+            <p>Herengracht 74, 1015 BR Amsterdam</p>
+        </div>
+        <div class="fvd-fvd"">
+                <h2>Bankrekening (IBAN)</h2>
+                <p>NL96INGB0007466225</p>
+            </div>
+            <div class=" fvd-fvd">
+            <h2>Postadres</h2>
+            <p> Forum voor Democratie, Postbus 10116, 1001 EC Amsterdam </p>
+        </div>
+        <div class="fvd-fvd">
+            <h2>BIC</h2>
+            <p>INGBNL2A</p>
+        </div>
+        <div class="fvd-fvd">
+            <h2>Telefoon</h2>
+            <a href="tel:0202612874">020 - 261 2874</a>
+        </div>
+        <div class="fvd-fvd">
+            <h2>KvK-nummer</h2>
+            <p>66760569</p>
+        </div>
+        <div class="fvd-fvd">
+            <h2>Fax</h2>
+            <p>084 - 884 2070</p>
+        </div>
+        <div class="fvd-contact">
+            <div>
+                <h3 class="pers">Perscontracten</h3>
+                <p class="pers-text">Alle aanvragen voor interviews en verzoeken vanuit de pers
+                    <br>
+                    voor informatie over Forum voor Democratie gaan via onze persvoorlichter.</p>
+                <p class="pers-a">
+                    <a href="mailto: pers@fvd.nl" class="pers-fvd">pers@fvd.nl</a>
+                </p>
+            </div>
+        </div>
+        <div class="fvd-contact">
+            <div>
+                <h3 class="pers">Telefonisch lid worden?</h3>
+                <p class="pers-text">Wij zijn bereikbaar op de volgende tijden:</p>
+                <p class="pers-p">Werkdagen: 09:30 - 17:00</p>
+                <p> Telefoon:
+                    <a href="tel:+31202612874" class="pers-tel">020 - 261 2874</a>
+                </p>
+            </div>
+        </div>
+    </div>
     <div class="fvd-bureau">
         <div>
             <h3>FVD-Partijbureau</h3>
