@@ -1,0 +1,35 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #e9fff9;
+}
+
+#fvd-head {
+    display: flex;
+    justify-content: center;
+}
+
+#fvd-head-text {
+    display: flex;
+    justify-content: center;
+}
+
+.fvd-bureau {
+    display: flex;  
+    gap: 5%;
+    justify-content: center;
+}
+    
+.fvd-bureau a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    padding-top: 2vmin;
+    gap: 5%;
+}
+
+.fvd-bureau svg {
+    height: 3vmin;
+}
