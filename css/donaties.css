@@ -1,3 +1,7 @@
+body{
+    background-color: #E9FFF9;
+}
+
 #head-currency {
     display: flex;
     justify-content: center;
@@ -58,4 +62,75 @@ h1 {
 #kies-betaal{
     font-weight: 600;
     font-size: 3vmin;
+    margin: 0;
+}
+#lock-logo{
+    width: 5vmin;
+    height: auto;
+    margin-right: 2vmin;
+}
+
+#veilig-betalen{
+    display: flex;
+    align-items: center;
+    font-size: 2vmin;
+}
+
+#betalen-text{
+    margin-left: 19.5vmin;
+}
+
+#paypal-button{
+    width: 45%;
+    height: 10vmin;
+    border-radius: 1vmin;
+    color: white;
+    outline: none;
+    font-size: 3vmin;
+    background-color: #425ADB; 
+    cursor: pointer;
+    font-style: italic;
+ 
+}
+
+#paypal-button svg{
+    width: 20vmin;
+    height: auto;
+    margin-right: 2vmin;
+}
+
+#ideal-button{
+    width: 45%;
+    height: 10vmin;
+    border-radius: 1vmin;
+    color: white;
+    outline: none;
+    font-size: 3vmin;
+    background-color: #EF3E5E;  
+    cursor: pointer;
+    font-style: italic;
+
+}
+
+#ideal-button svg{
+    width: 10vmin;
+    height: auto;
+    margin-right: 2vmin;
+}
+
+#betaal-buttons{
+    padding-top: 2vmin;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 19.5vmin;
+}
+
+#info-text{
+    margin-right: 19.5vmin;
+}
+
+#obama-image{
+    width: 90%;
+    height: 60vmin;
+    object-fit: cover;
 }
