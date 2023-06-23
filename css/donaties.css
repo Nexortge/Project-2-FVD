@@ -13,7 +13,7 @@ h1 {
     width: 20vmin;
     height: 7vmin;
     border-radius: 0;
-    border: none;
+    border: black solid 1px;
     outline: none;
     font-size: 3vmin;
     background-color: #D9D9D9;
@@ -53,4 +53,9 @@ h1 {
 
 #schijtende-mensen {
     background-color: #D9D9D9;
+}
+
+#kies-betaal{
+    font-weight: 600;
+    font-size: 3vmin;
 }
