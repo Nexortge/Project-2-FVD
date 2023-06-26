@@ -1,0 +1,48 @@
+.card-holder {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 1px;
+  }
+  
+  .card {
+    width: 25%;
+    height: 100vmin;
+    padding: 2%;
+    margin: -1px;
+  }
+
+p{
+    font-size: 3vmin;
+    width: 80%;
+    text-align: justify;
+}
+h2{
+    font-size: 5vmin;
+    width: 100%;
+}
+
+#title{
+    font-size: 7vmin;
+    text-align: center;
+    margin: 5vmin 0;
+}
+
+.top-left{
+    border-top-left-radius: 13%;
+}
+
+.top-right{
+    border-top-right-radius: 13%;
+}
+
+.bottom-left{
+    border-bottom-left-radius: 13%;
+}
+
+.bottom-right{
+    border-bottom-right-radius: 13%;
+}
