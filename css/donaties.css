@@ -4,9 +4,9 @@ body{
 
 #head-currency {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    justify-self: center;
     align-items: center;
-    gap: 120vmin;
 }
 
 h1 {

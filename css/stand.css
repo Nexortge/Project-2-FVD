@@ -255,4 +255,45 @@ h2 {
     color: black;
     /* Adjust the opacity value as desired */
 }
+@media screen and (max-width: 1700px) {
+    p{
+        font-size: 2.8vmin;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    p{
+        font-size: 2.5vmin;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .card-holder {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .top-left {
+        border-top-left-radius: 0%;
+    }
+    
+    .top-right {
+        border-top-right-radius: 0%;
+    }
+    
+    .bottom-left {
+        border-bottom-left-radius: 0%;
+    }
+    
+    .bottom-right {
+        border-bottom-right-radius: 0%;
+    }
+    .right {
+        border-right: 0px solid rgb(100, 100, 100);
+    }
+    
+    .top {
+        border-top: 0px solid rgb(100, 100, 100);
+    }
+}
+    
 
