@@ -49,10 +49,12 @@
                 <h3 class="pers">Perscontracten</h3>
                 <p class="pers-text">Alle aanvragen voor interviews en verzoeken vanuit de pers
                     <br>
-                    voor informatie over Forum voor Democratie gaan via onze persvoorlichter.</p>
+                    voor informatie over Forum voor Democratie gaan via onze persvoorlichter.
+                </p>
                 <p class="pers-a">
                     <a href="mailto: pers@fvd.nl" class="pers-fvd">pers@fvd.nl</a>
                 </p>
+                <a href="mailto: klantenservice@wildvanfreek.nl" class="pers-fvd">klantenservice@wildvanfreek.nl</a>
             </div>
         </div>
         <div class="fvd-contact">
@@ -62,6 +64,10 @@
                 <p class="pers-p">Werkdagen: 09:30 - 17:00</p>
                 <p> Telefoon:
                     <a href="tel:+31202612874" class="pers-tel">020 - 261 2874</a>
+                </p>
+
+                <p> Telefoon:
+                    <a href="tel:+085-2731962" class="pers-tel">085-2731962</a>
                 </p>
             </div>
         </div>
@@ -96,6 +102,9 @@
                     <div>070 - 318 3121</div>
                 </a>
             </div>
+        </div>
+        <div>
+            <img src="../assets/freek-vonk.jpg" alt="freekvonk" class="freek">
         </div>
     </div>
 </body>

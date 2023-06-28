@@ -33,6 +33,12 @@ a {
     padding-top: 5vmin;
 }
 
+.freek {
+    border-radius: 50%;
+    width: 20vmin;
+    height: 20vmin;
+}
+
 .container {
     display: flex;
     align-items: center;

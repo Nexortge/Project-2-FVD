@@ -2,6 +2,12 @@ body {
     background-color: #E9FFF9;
 }
 
+.freek {
+    border-radius: 50%;
+    width: 20vmin;
+    height: 20vmin;
+}
+
 #card-holder-holder {
     background-color: #E9FFF9;
 }

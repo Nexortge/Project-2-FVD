@@ -20,6 +20,9 @@
         <p>of <a href="login.php">login</a></p>
     </div>
 
+    <div>
+    <img src="../assets/freek-vonk.jpg" alt="freekvonk" class="freek">
+    </div>
 
     <div class="container">
         <img class="standpunt-img" src="../assets/standpunt.webp" alt="img">

@@ -46,6 +46,11 @@
             <button id="paypal-button">PayPal</button>
             <button id="ideal-button">Ideal</button>
         </div>
+
+        <div>
+            <img src="../assets/freek-vonk.jpg" alt="freekvonk" class="freek">
+        </div>
+
         <h1>Lorem ipsum dolor samet</h1>
         <p id="info-text">Lorem ipsum dolor sit amet consectetur. Viverra id amet in odio enim venenatis nulla.
             Sit lorem pellentesque egestas eget pretium mattis. Neque risus vulputate vitae nec lectus commodo
@@ -54,7 +59,7 @@
             facilisis sollicitudin. Dignissim tempus consequat faucibus velit quam convallis. At aliquet et
             sed praesent laoreet amet donec rutrum nunc. Viverra ultricies ac non hac volutpat purus risus pretium
             onec elit sit sed eros. Lobortis vel sodales suscipit scelerisque. Vel dictum diam hendrerit nam mi arcu.</p>
-            <img src="../assets/obama.jpg" alt="obama" srcset="" id="obama-image">
+        <img src="../assets/obama.jpg" alt="obama" srcset="" id="obama-image">
     </div>
 
 

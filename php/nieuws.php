@@ -11,6 +11,7 @@
 <body>
     <?php include '../includes/header.php'; ?>
     <h1 class="title">Nieuws brief</h1>
+    
     <div class="card-holder">
         <div class="card">
             <div class="card-padding">
@@ -116,7 +117,9 @@
         </div>
     </div>
 
-
+    <div>
+    <img src="../assets/freek-vonk.jpg" alt="freekvonk" class="freek">
+    </div>
 
     <?php include '../includes/footer.php'; ?>
 </body>

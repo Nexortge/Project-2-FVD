@@ -2,6 +2,12 @@
     font-family: 'Inter', sans-serif;
 }
 
+.freek {
+    border-radius: 50%;
+    width: 20vmin;
+    height: 20vmin;
+}
+
 body {
     background-color: #e9fff9;
 }
