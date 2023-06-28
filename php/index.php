@@ -28,7 +28,7 @@
                     Geen nieuwe soevereiniteitsoverdracht
                     Opzeggen internationale verdragen die niet in het Nederlandse belang zijn
                 </p>
-                <a href="../php/stand.php" class="button">Read More</a>
+                <a href="../php/stand.php" class="button">Lees verder...</a>
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
                     Cancelcultuur en 'deplatforming' tegengaan
                     Vrije (wetenschappelijke) ideeënuitwisseling bevorderen
                 </p>
-                <a href="../php/stand.php" class="button">Read More</a>
+                <a href="../php/stand.php" class="button">Lees verder...</a>
             </div>
         </div>
     </div>
