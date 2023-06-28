@@ -12,10 +12,6 @@
     <?php include '../includes/header.php'; ?>
     <h1 id="title">Dit zijn onze standpunten.</h1>
 
-    <div>
-    <img src="../assets/freek-vonk.jpg" alt="freekvonk" class="freek">
-    </div>
-
     <div id="card-holder-holder">
         <div class="card-holder">
             <div class="card top-left right" id="card-1">

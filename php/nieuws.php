@@ -117,10 +117,6 @@
         </div>
     </div>
 
-    <div>
-    <img src="../assets/freek-vonk.jpg" alt="freekvonk" class="freek">
-    </div>
-
     <?php include '../includes/footer.php'; ?>
 </body>
 
