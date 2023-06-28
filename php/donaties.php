@@ -59,7 +59,7 @@
             facilisis sollicitudin. Dignissim tempus consequat faucibus velit quam convallis. At aliquet et
             sed praesent laoreet amet donec rutrum nunc. Viverra ultricies ac non hac volutpat purus risus pretium
             onec elit sit sed eros. Lobortis vel sodales suscipit scelerisque. Vel dictum diam hendrerit nam mi arcu.</p>
-        <img src="../assets/obama.jpg" alt="obama" srcset="" id="obama-image">
+        <img src="../assets/obama.png" alt="obama" srcset="" id="obama-image">
     </div>
 
 
