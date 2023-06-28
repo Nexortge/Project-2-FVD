@@ -88,7 +88,7 @@
                 <img src="../assets/who-verdrag.webp" alt="img1">
                 <div style="display: flex; align-items: center; justify-content:space-between;">
                     <h1>Pepijn van Houwelingen dwingt kabinet</h1>
-                    <p>door balzak</p>
+                    <p>door Freek Vonk</p>
                 </div>
 
                 <p>Een belangrijke overwinning in onze vrijheidsstrijd: FVD-Tweede Kamerlid Pepijn van Houwelingen heeft afgedwongen dat het nieuwe WHO-verdrag, dat zeer omstreden is vanwege de inbreuk op onze soevereiniteit, eerst ter goedkeuring aan de Tweede Kamer moet worden voorgelegd. Daarvoor verzamelde hij de vereiste steun van ten minste 30 Tweede Kamerleden.</p>

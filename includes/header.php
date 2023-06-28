@@ -6,7 +6,8 @@ $pages = array(
     'donaties.php' => 'About',
     'contact.php' => 'Contact',
     'nieuws.php' => 'Nieuws brief',
-    'stand.php' => 'Stand punten'
+    'stand.php' => 'Stand punten',
+    'leden.php' => 'Leden'
 );
 
 function isCurrentPage($page)
@@ -49,6 +50,7 @@ function isCurrentPage($page)
             <li class="<?php echo isCurrentPage('contact.php'); ?>"><a href="contact.php">Contact</a></li>
             <li class="<?php echo isCurrentPage('nieuws.php'); ?>"><a href="nieuws.php">Nieuwsbrief</a></li>
             <li class="<?php echo isCurrentPage('stand.php'); ?>"><a href="stand.php">Standpunten</a></li>
+            <li class="<?php echo isCurrentPage('leden.php'); ?>"><a href="leden.php">Leden</a></li>
         </ul>
     </div>
 
