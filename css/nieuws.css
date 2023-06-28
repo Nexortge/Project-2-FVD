@@ -1,5 +1,5 @@
 body{
-    background-color: #E9FFF9   ;
+    background-color: #    ;
 }
 
 .title{
@@ -8,7 +8,7 @@ body{
 }
 
 .card{
-    width: 32%;
+    width: 100%;
     background-color: #d8f2eb;
     border-radius: 2vmin;
     box-shadow: 0 0 2vmin rgba(0,0,0,0.1);
@@ -33,14 +33,20 @@ body{
 }
 
 .card-holder{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 3vmin;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     padding: 5vmin;
+    gap: 2vmin;
 }
 
 a{
     text-decoration: none;
     color: #d84444;
 }
+
+@media (max-width: 1000px) {
+    .card-holder {
+      grid-template-columns: 1fr;
+    }
+  }
+
