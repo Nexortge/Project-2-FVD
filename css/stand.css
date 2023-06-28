@@ -25,7 +25,7 @@ body {
     transition: color stroke 0.5 ease-in-out ;
 }
 
-.card:hover p {
+/* .card:hover p {
     color: white;
 }
 
@@ -35,7 +35,7 @@ body {
 
 .card:hover svg g {
     stroke: white;
-}
+} */
 
 .right {
     border-right: 1px solid rgb(100, 100, 100);
@@ -103,8 +103,7 @@ h2 {
 }
 
 #card-1:hover::after {
-    opacity: 0.1;
-    color: white;
+    opacity: 0.7;
     /* Adjust the opacity value as desired */
 }
 
@@ -133,8 +132,8 @@ h2 {
 }
 
 #card-2:hover::after {
-    opacity: 0.1;
-    color: white;
+    opacity: 0.7;
+    color: black;
     /* Adjust the opacity value as desired */
 }
 
@@ -163,8 +162,8 @@ h2 {
 }
 
 #card-3:hover::after {
-    opacity: 0.1;
-    color: white;
+    opacity: 0.7;
+    color: black;
     /* Adjust the opacity value as desired */
 }
 
@@ -193,8 +192,8 @@ h2 {
 }
 
 #card-4:hover::after {
-    opacity: 0.1;
-    color: white;
+    opacity: 0.7;
+    color: black;
     /* Adjust the opacity value as desired */
 }
 
@@ -223,8 +222,8 @@ h2 {
 }
 
 #card-5:hover::after {
-    opacity: 0.1;
-    color: white;
+    opacity: 0.7;
+    color: black;
     /* Adjust the opacity value as desired */
 }
 
@@ -252,8 +251,8 @@ h2 {
 }
 
 #card-6:hover::after {
-    opacity: 0.1;
-    color: white;
+    opacity: 0.7;
+    color: black;
     /* Adjust the opacity value as desired */
 }
 

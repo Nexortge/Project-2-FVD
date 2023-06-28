@@ -7,13 +7,14 @@
     display: flex;
     justify-content: space-between;
     height: 25vmin;
-
+    align-items: center;
 }
 
 .logo-text {
     height: auto;
     display: flex;
     height: 25vmin;
+    width: 100%;
 }
 
 #logo-img {
@@ -64,4 +65,42 @@ a {
 
 p {
     color: black;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.hamburger-menu div {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: #333;
+}
+
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+    }
+
+    #menu-items {
+        display: none;
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in-out;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+}
+
+#menu-items.show {
+    opacity: 1;
+    display: flex;
+    transform: translateX(0);
 }
