@@ -15,7 +15,7 @@
     session_start();
 
     if (isset($_SESSION['email'])) {
-        echo "Welcome, " . $_SESSION['email'];
+        echo "<script>alert('Welkom 'vgjv g fuh tuutvycrh')</script>";
     } else {
         echo "You are not logged in";
 
