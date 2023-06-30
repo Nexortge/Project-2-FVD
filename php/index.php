@@ -15,7 +15,7 @@
     ?>
 
     <div id="buttons">
-        <button class="registreer"><a href="../php/index.php">Sluit je aan!</a></button>
+        <button class="registreer"><a href="registratie.php">Sluit je aan!</a></button>
         <p>of <a href="login.php">login</a></p>
     </div>
 
