@@ -1,4 +1,3 @@
-big blue balls
 <?php
 class dbHandler{
 
