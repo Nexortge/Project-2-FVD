@@ -30,7 +30,10 @@ img {
 }
 
 input {
-    background-color: #dcdcdc
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 1vmin;
+    height: 6vmin;
 }
 
 header {
@@ -50,9 +53,6 @@ h1 {
     width: 15%;
     font-size: 4vmin;
     outline: none;
-}
-
-.login{
     color: white;
 }
 
