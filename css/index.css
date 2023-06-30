@@ -57,10 +57,6 @@ a {
     white-space: pre-line;
 }
 
-h1 {
-    padding-bottom: 4vmin;
-}
-
 @media screen and (max-width: 1000px) {
 
     .registreer {
