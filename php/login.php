@@ -31,16 +31,6 @@
             <button class="login"><a href="index.php">Login!</a></button>
         </div>
 
-        <div id="patreon">
-            <a href="https://www.patreon.com/">
-                <svg class="patreon-sub" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="m15.386.524c-4.764 0-8.64 3.876-8.64 8.64 0 4.75 3.876 8.613 8.64 8.613 4.75 0 8.614-3.864 8.614-8.613 0-4.764-3.864-8.64-8.614-8.64m-15.383 23.013h4.22v-23.013h-4.22" />
-                    <p>Subscribe nu!</p>
-                </svg>
-            </a>
-        </div>
-
         <footer>
             <img class="fvd-logo" src="../assets/FVD.png" alt="">
             <button class="lid"><a href="registratie.php">Word lid</a></button>
