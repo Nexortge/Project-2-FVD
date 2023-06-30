@@ -36,6 +36,36 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 2vmin;
-    margin: 2vmin 1vmin;
     cursor: pointer;
-}   
+}
+
+.gebruiker {
+    text-align: center;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 2vmin;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 1vmin;
+    margin-bottom: 1vmin;
+    border: 1px solid #ddd;
+    border-radius: .5vmin;
+}
+
+input[type="submit"] {
+    padding: 2vmin 2vmin;
+    background-color: #d84444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 1vmin;
+}

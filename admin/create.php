@@ -1,6 +1,7 @@
+<link rel="stylesheet" href="style.css">
 
-<h1>Maak nieuwe gebruiker aan</h1>
-<form action="index.php" method="POST">
+<h1 class="gebruiker">Maak nieuwe gebruiker aan</h1>
+<form action="index.php" method="POST" class="form">
     <label for="firstName">voornaam:</label>
     <input type="text" id="firstName" name="firstName" value="">
     <label for="lastName">achternaam:</label>

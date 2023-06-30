@@ -1,6 +1,8 @@
-<h1>Verander huidige gebruiker</h1>
+<link rel="stylesheet" href="style.css">
 
-<form action="index.php" method="POST">
+<h1 class="gebruiker">Verander huidige gebruiker</h1>
+
+<form action="index.php" method="POST" class="form">
     <input type="text" hidden name="id" value="<?php echo $_POST['id']?>">
     <label for="firstName">voornaam:</label>
     <input type="text" id="firstName" name="firstName" value="<?php echo $_POST['firstName']?>">
