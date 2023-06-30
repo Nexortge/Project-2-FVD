@@ -19,6 +19,8 @@ if(isset($_POST['login'])){
     } else {
         // Password is incorrect
         echo "Password is incorrect";
+        session_start();
+        $_SESSION['email'] = 'BESTAT NIET';
     }
 }
 

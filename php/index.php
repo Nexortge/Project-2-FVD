@@ -12,12 +12,24 @@
 <body>
     <?php
     include '../includes/header.php';
+    session_start();
+
+    if (isset($_SESSION['email'])) {
+        echo "Welcome, " . $_SESSION['email'];
+    } else {
+        echo "You are not logged in";
+
+        echo "<div id='buttons'>
+        <button class='registreer'><a href='registratie.php'>Sluit je aan!</a></button>
+        <p>of <a href='login.php'>login</a></p>
+    </div>
+    niet ingelold";
+    }
+
+
     ?>
 
-    <div id="buttons">
-        <button class="registreer"><a href="registratie.php">Sluit je aan!</a></button>
-        <p>of <a href="login.php">login</a></p>
-    </div>
+
 
     <div class="container">
         <img class="standpunt-img" src="../assets/freek-vonk.jpg" alt="img">
