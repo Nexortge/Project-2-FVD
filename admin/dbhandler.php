@@ -42,5 +42,14 @@ class dbHandler{
         $statment->execute();
     }
 
+    public function getPasswordByEmail($email) {
+        $pdo = new PDO($this->datasource, $this->username, $this->password);
+        $statement = $pdo->prepare("SELECT password FROM users WHERE email = :email");
+        $statement->bindParam(":email", $email, PDO::PARAM_STR);
+        $statement->execute();
+        $result = $statement->fetch(PDO::FETCH_ASSOC);
+        var_dump($result);
+        return $result['password'];
+    }
 
 }

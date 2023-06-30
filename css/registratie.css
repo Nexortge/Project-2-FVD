@@ -13,7 +13,7 @@ body {
 
 .question-container input {
     width: 100%;
-}
+}   
 
 .question-container label {
     padding-right: 2%;
@@ -30,7 +30,10 @@ img {
 }
 
 input {
-    background-color: #dcdcdc
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 1vmin;
+    height: 6vmin;
 }
 
 header {
@@ -45,7 +48,7 @@ h1 {
 .registreer {
     background-color: #d84444;
     border: none;
-    border-radius: 1vmin;
+    border-radius: .5vmin;
     height: 6vmin;
     width: 15%;
     font-size: 4vmin;
@@ -61,6 +64,7 @@ a {
 
 #buttons {
     display: flex;
+    margin-left: 10%;
 }
 
 #buttons p {
@@ -107,7 +111,7 @@ svg a {
     background-color: #d84444;
     color: white;
     border: none;
-    border-radius: 1vmin;
+    border-radius: .5vmin;
     height: 6vmin;
     width: 15%;
     font-size: 4vmin;
