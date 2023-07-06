@@ -45,3 +45,12 @@ svg a {
     color: white;
 }
 
+
+@media screen and (max-width: 1000px ) {
+    .lid {
+
+        font-size: 2vmin;
+    }
+    
+}
+
