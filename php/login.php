@@ -5,7 +5,6 @@ $dbHandler = new dbHandler();
 if(isset($_POST['login'])){
     $email = $_POST['email'];
     $hashed_password = $dbHandler->getPasswordByEmail($email);
-    var_dump($hashed_password, $_POST['password'], password_verify($_POST['password'], $hashed_password));
     if (password_verify($_POST['password'], $hashed_password)) {
         // Password is correct, start the session
         session_start();
@@ -18,7 +17,7 @@ if(isset($_POST['login'])){
         exit();
     } else {
         // Password is incorrect
-        echo "Password is incorrect";
+        echo "Wachtwoord of email is niet goed ingevuld";
         session_start();
         $_SESSION['email'] = 'BESTAT NIET';
     }

@@ -15,15 +15,12 @@
     session_start();
 
     if (isset($_SESSION['email'])) {
-        echo "<script>alert('Welkom 'vgjv g fuh tuutvycrh')</script>";
     } else {
-        echo "You are not logged in";
 
         echo "<div id='buttons'>
         <button class='registreer'><a href='registratie.php'>Sluit je aan!</a></button>
         <p>of <a href='login.php'>login</a></p>
-    </div>
-    niet ingelold";
+    </div>";
     }
 
 
